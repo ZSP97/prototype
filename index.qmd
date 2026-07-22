@@ -9,16 +9,51 @@ This is the Quarto website source for the BIM prototype project.
 ## Featured page
 
 - [Wikidata Item Profile: Q138547468](wikidata-item.html)
-## Data Model Mapping to Standards
 
-| XML element | Wikidata property | CIDOC CRM |
-|---|---|---|
-| title | P1476 | P102_has_title |
-| creator | P170 | P14_carried_out_by |
-| date | P571 | P108_has_produced |
-| materials | P186 | P45_consists_of |
-| inventory_number | P217 | P1_is_identified_by |
-| location | P276 | — |
+---
+
+title: "Data Model Mapping to Standards"
+
+---
+
+# Data Model Max Ernst (Q138547468)
+
+The data model of the exhibition **“Max Ernst” (Q138547468)** is based on Wikidata and is compared with established metadata standards.
+
+## Mapping Wikidata → Standards
+
+| Wikidata property | Meaning | Dublin Core | Schema.org | CIDOC CRM |
+|-------------------|---------|-------------|------------|-----------|
+| instance of (P31) | Exhibition | dc:type | Event | E7 Activity |
+| title (P1476) | Title of the exhibition | dc:title | name | E41 Appellation |
+| location (P276) | Location of the exhibition | dc:coverage | location | E53 Place |
+| creator (P170) | Artist or creator | dc:creator | creator | E39 Actor |
+| start time (P580) | Start of the exhibition | dc:date | startDate | E52 Time-Span |
+| end time (P582) | End of the exhibition | dc:date | endDate | E52 Time-Span |
+| official website (P856) | Official website | dc:identifier | url | - |
+| language (P407) | Language | dc:language | inLanguage | E56 Language |
+
+## Description of the Standards
+
+### Wikidata
+
+Wikidata is the starting point for the data model. The exhibition is represented by the item `Q138547468` and is described with properties such as title, location, dates and related people.
+
+### Dublin Core
+
+Dublin Core is a metadata standard for describing digital and cultural resources. It uses basic elements such as title, creator, date, language and identifier.
+
+### Schema.org
+
+Schema.org provides structured data for websites. The exhibition can be represented as an `Event` and connected with information such as its title, location, start date and end date.
+
+### CIDOC CRM
+
+CIDOC CRM is an international standard for cultural heritage information. It represents the exhibition as an activity and connects it with people, places and time spans.
+
+## Conclusion
+
+The mapping shows that the Wikidata properties used for the exhibition can be connected with Dublin Core, Schema.org and CIDOC CRM. This makes the data easier to understand, reuse and exchange between different cultural heritage systems.
 
 ## Changelog
 

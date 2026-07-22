@@ -9,6 +9,16 @@ This is the Quarto website source for the BIM prototype project.
 ## Featured page
 
 - [Wikidata Item Profile: Q138547468](wikidata-item.html)
+## Data Model Mapping to Standards
+
+| XML element | Wikidata property | CIDOC CRM |
+|---|---|---|
+| title | P1476 | P102_has_title |
+| creator | P170 | P14_carried_out_by |
+| date | P571 | P108_has_produced |
+| materials | P186 | P45_consists_of |
+| inventory_number | P217 | P1_is_identified_by |
+| location | P276 | — |
 
 ## Changelog
 

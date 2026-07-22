@@ -7,6 +7,9 @@ project:
     - wikidata.qmd
     - wikidata-item.ipynb
 
+authour: 
+ name: "Zeinab Sepah Vand"
+ orcid: "0009-0000-2628-4345"
 website:
   title: "BIM Prototype 02"
   navbar:

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using the metadata below."
+authors:
+  - family-names: ""
+    given-names: ""
+    orcid: "https://orcid.org/0009-0000-2628-4345"
+title: "prototype"
+version: "1.0.0"
+url: "https://github.com/mrchristian/prototype"

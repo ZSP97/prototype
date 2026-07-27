@@ -1,0 +1,25 @@
+---
+title: "Ausstellung"
+format:
+  html:
+    toc: true
+---
+
+# Ausstellung: Abenteuer Abstraktion
+
+Diese Seite beschreibt die Ausstellung, die im Wikidata-Eintrag Q139288222 dokumentiert ist.
+
+## Überblick
+
+Die Ausstellung ist als Teil des Projekts im Quarto-Website-Kontext eingebunden. Die Seite dient als Einstiegspunkt für eine spätere, datenbasierte Darstellung der Ausstellung aus Wikidata.
+
+## Referenzen
+
+- Wikidata-Eintrag: [Q139288222](https://www.wikidata.org/wiki/Q139288222)
+- Ausstellungshomepage: [Sprengel Museum](https://www.sprengel-museum.de/ausstellungen/aktuell/abenteuer-abstraktion)
+
+## Nächste Schritte
+
+- Weitere Metadaten aus Wikidata ergänzen
+- Verknüpfungen zu beteiligten Künstler:innen, Orten und Institutionen einbauen
+- Die Seite visuell an die übrige Website anpassen
